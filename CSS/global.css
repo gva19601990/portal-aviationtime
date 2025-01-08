@@ -25,13 +25,22 @@ menu a:hover {background-color: rgb(85, 31, 231);cursor: pointer;transition: 1s;
 #menu:hover {background-color: rgb(85, 31, 231);cursor: pointer;transition: 1s;}
 
 /*corpo*/
-/*h2 título da materia, h3 subtítulo matéria*/
+/*h2 título da principal, h3 título materias secundárias*/
 body {background-image: url('../imagens/plano-fundo.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;}
 div.container {min-height: 300px;max-width: 800px;min-width: 280px;display: block;margin: auto;margin-top: 20px;}
-main {background-color: white;margin-left: 6px;margin-right: 6px;padding: 10px;text-align: justify;}
+main {background-color: white;margin-left: 6px;margin-right: 6px;padding: 10px;text-align: justify;border-radius: 20px;}
 main h2 {text-align: center;margin-top: 50px;margin-bottom: 20px;}
 main p {text-indent: 30px;margin-bottom: 10px;}
 
+
+/*container noticia principal*/
+.principal {width: 95%;height: auto;padding: 10px;margin: auto; font-family: Arial, Helvetica, sans-serif;}
+.principal h1 {text-align: center;margin-top: 30px;margin-bottom: 10px;font-size: 32px;}
+.principal h2 {font-size: 14px;margin-top: 10px;margin-bottom: 10px;}
+#imgcapa {display: block;width: 70%;height: auto;margin: auto;}
+
+/*container noticia normal*/
+.noticia {display: block;width: 95%;height: 200px;background-color: rgb(180, 45, 45);margin: auto;margin-top: 10px;margin-bottom: 10px;}
 /*section contatos*/
 section#contatos {background-color: rgb(63, 20, 180);text-align: center;color: white;padding: 10px;font-family: Arial;margin-top: 20px;font-size: 14px;}
 

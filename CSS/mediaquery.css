@@ -8,6 +8,13 @@
 } 
 
 @media screen and (max-width: 768px) {
+
+
+    .principal h1 {font-size: 20px;}
+    .principal h2 {font-size: 12px;}
+
+
+
     section#contatos {font-size: 12px;}
     footer p {font-size: 12px;}
 

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*font cabeçalho*/
+@font-face {
+    font-family:'libre' ;
+    src: url('../fonts/LibreBaskerville-Bold.ttf') format('truetype');
+}
+
+/*reset global*/
+* {padding: 0px;margin: 0px;}
+
+/*cabeçalho*/
+header {background-color: rgb(38, 11, 110);text-align: center;padding: 20px; font-family: libre;color: white;text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.555);}
+#slogan {width: 70px;height: 70px;}
+
+/*menu normal*/
+menu {display: none;}
+menu ul {list-style-type: none;}
+menu a {display: block; padding: 10px;color: white;text-decoration: none;background-color: rgb(41, 38, 38);text-align: center;border: 2px solid rgb(255, 255, 255);min-width: 90px;}
+menu a:hover {background-color: rgb(85, 31, 231);cursor: pointer;transition: 1s;}
+
+/*menu hamburguer*/
+#menu {background-color: rgb(41, 38, 38);display: block;padding: 5px;color: white;cursor: pointer;}
+#menu:hover {background-color: rgb(85, 31, 231);cursor: pointer;transition: 1s;}
+
+/*corpo*/
+/*h2 título da materia, h3 subtítulo matéria*/
+body {background-image: url('../imagens/plano-fundo.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;}
+div.container {min-height: 300px;max-width: 800px;min-width: 280px;display: block;margin: auto;margin-top: 20px;}
+main {background-color: white;margin-left: 6px;margin-right: 6px;padding: 10px;text-align: justify;}
+main h2 {text-align: center;margin-top: 50px;margin-bottom: 20px;}
+main p {text-indent: 30px;margin-bottom: 10px;}
+
+/*section contatos*/
+section#contatos {background-color: rgb(63, 20, 180);text-align: center;color: white;padding: 10px;font-family: Arial;margin-top: 20px;font-size: 14px;}
+
+
+/*rodapé*/
+footer {background-color: rgb(38, 11, 110);text-align: center;color: white;padding: 10px;font-family: libre;}

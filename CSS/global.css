@@ -11,6 +11,7 @@
 
 /*cabeçalho*/
 header {background-color: rgb(38, 11, 110);text-align: center;padding: 20px; font-family: libre;color: white;text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.555);}
+header h1 {margin-top: 30px;}
 #slogan {width: 70px;height: 70px;}
 
 /*menu normal*/

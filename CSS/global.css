@@ -9,6 +9,8 @@
 /*reset global*/
 * {padding: 0px;margin: 0px;}
 
+
+
 /*cabeçalho*/
 header {background-color: rgb(38, 11, 110);text-align: center;padding: 20px; font-family: libre;color: white;text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.555);}
 header h1 {margin-top: 30px;}
@@ -24,23 +26,54 @@ menu a:hover {background-color: rgb(85, 31, 231);cursor: pointer;transition: 1s;
 #menu {background-color: rgb(41, 38, 38);display: block;padding: 5px;color: white;cursor: pointer;}
 #menu:hover {background-color: rgb(85, 31, 231);cursor: pointer;transition: 1s;}
 
+
+
+
+
 /*corpo*/
-/*h2 título da principal, h3 título materias secundárias*/
+
+
+/*pagina noticia, h2 titulo e h3 subtitulos*/
 body {background-image: url('../imagens/plano-fundo.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;}
 div.container {min-height: 300px;max-width: 800px;min-width: 280px;display: block;margin: auto;margin-top: 20px;}
-main {background-color: white;margin-left: 6px;margin-right: 6px;padding: 10px;text-align: justify;border-radius: 20px;}
-main h2 {text-align: center;margin-top: 50px;margin-bottom: 20px;}
-main p {text-indent: 30px;margin-bottom: 10px;}
+main {background-color: white;margin-left: 6px;margin-right: 6px;padding: 10px;text-align: justify;border-radius: 20px;font-family: Arial, Helvetica, sans-serif;}
+main h2 {text-align: center;margin-top: 50px;margin-bottom: 20px;font-size: 36px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+main p {text-indent: 30px;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;}
+a {text-decoration: none;}
+
+
+
+/*pagina noticia*/
+#imgpagnoticia {display: block; width: 95%;height: auto;margin: auto;margin-bottom: 20px;}
 
 
 /*container noticia principal*/
 .principal {width: 95%;height: auto;padding: 10px;margin: auto; font-family: Arial, Helvetica, sans-serif;}
-.principal h1 {text-align: center;margin-top: 30px;margin-bottom: 10px;font-size: 32px;}
-.principal h2 {font-size: 14px;margin-top: 10px;margin-bottom: 10px;}
-#imgcapa {display: block;width: 70%;height: auto;margin: auto;}
+.principal h1 {text-align: center;margin-top: 30px;margin-bottom: 10px;font-size: 36px;background-image: linear-gradient(to bottom, rgba(37, 11, 110, 0.582), white);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.principal h2 {font-size: 14px;margin-top: 10px;margin-bottom: 10px;text-align: center;text-decoration: none;}
+.principal a:visited {color: black;}
+#imgcapa {display: block;width: 90%;height: auto;margin: auto;}
+
+ 
+
+
 
 /*container noticia normal*/
-.noticia {display: block;width: 95%;height: 200px;background-color: rgb(180, 45, 45);margin: auto;margin-top: 10px;margin-bottom: 10px;}
+.noticia {display: block;width: 80%;height: auto;background-image: linear-gradient(to bottom, rgba(37, 11, 110, 0.582), white);margin: auto;margin-top: 10px;margin-bottom: 10px;}
+.noticia h2 {font-size: 18px;text-align: left;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.noticia a:visited {color: black;}
+#marcador {display: inline-block;width: 30px;height: 30px;}
+
+
+
+
+/*tabela*/
+.tabela h2 {font-size: 18px;}
+.tabela caption {font-size: 18px;margin-bottom: 30px;margin-top: 20px;}
+.tabela table {border-collapse: collapse;width: 70%;margin: auto;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-bottom: 30px;}
+.tabela td,th {border: 1px solid black;text-align: center;height: 40px;padding: 2px;}
+.tabela tfoot > tr {background-color: yellow;}
+
 /*section contatos*/
 section#contatos {background-color: rgb(63, 20, 180);text-align: center;color: white;padding: 10px;font-family: Arial;margin-top: 20px;font-size: 14px;}
 

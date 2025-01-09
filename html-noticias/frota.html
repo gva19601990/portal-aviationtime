@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frota</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /><!--menu-->
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="../CSS/mediaquery.css">
+</head>
+<body>
+    <header>    
+        <h1>Portal Aviation Time</h1>
+        <h2><img id="slogan" src="../imagens/slogan.png" alt="slogan"></h2>
+        <span class="material-symbols-outlined" id="menu" onclick="clickMenu()">menu</span><!--ícone menu-->
+            <menu id="itens">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li><a href="frota.html">Frota</a></li>
+                    <li><a href="extras.html">Extras</a></li>
+                </ul>
+            </menu>
+    </header>
+
+    <div class="container">
+        <main>
+            <div class="tabela">
+                <h2>(*números fictícios)</h2>
+                <table><!--thead(cabeça)tbody(corpo)tfoot(rodapé)da tabela-->
+                   <caption>Frota comercial brasileira</caption><!--Título tabela-->
+                    <thead>
+                        <tr><!--Linha cabeçalho-->
+                            <th scope="col">Fabricante</th><!--th é o cabeçalho da coluna//--SCOPE é direçao das informacoes-->
+                            <th scope="col">Modelo</th>
+                            <th scope="col">Empresa</th>
+                            <th scope="col">Quantidade</th>
+                        </tr>
+                    </thead>
+                    <tbody><!--Linhas comuns-->
+                        <tr>
+                            <td>Aerospatiale</td>
+                            <td>ATR-72-600</td>
+                            <td>Azul</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Aerospatiale</td>
+                            <td>ATR-72-600</td>
+                            <td>Passaredo</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Airbus</td>
+                            <td>A319</td>
+                            <td>Latam</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Airbus</td>
+                            <td>A320</td>
+                            <td>Latam</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Airbus</td>
+                            <td>A20N</td>
+                            <td>Latam/azul</td>
+                            <td>55</td>
+                        </tr>
+                        <tr>
+                            <td>Airbus</td>
+                            <td>A321</td>
+                            <td>Latam</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>Airbus</td>
+                            <td>A21N</td>
+                            <td>Latam/Azul</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Embraer</td>
+                            <td>E190/E195</td>
+                            <td>Azul</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Embraer</td>
+                            <td>E2195</td>
+                            <td>Azul</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Boeing</td>
+                            <td>737-700</td>
+                            <td>Gol</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Boeing</td>
+                            <td>737-800</td>
+                            <td>Gol</td>
+                            <td>70</td>
+                        </tr>
+                        <tr>
+                            <td>Boeing</td>
+                            <td>737MAX-8</td>
+                            <td>Gol</td>
+                            <td>12</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row" colspan="3">Quantidade Total</th><!--colspan quantas colunas vai ocupar-->
+                            <td><strong>347</strong></td>
+                        </tr>
+                    </tfoot>
+            
+                </table>
+        </div>
+                    
+        </main>
+    </div>
+    <section id="contatos">
+        <p>Endereço (fictício): Avenida das Manguabeiras, 1777, Teresina-Piaui</p>
+        <p>Contatos: (86) 994776666</p>
+    </section>
+    <footer>
+            <p> &copy; George Alcantara</p>
+    </footer>
+
+    <!--Java script-->
+    <script>
+
+        function mudoutamanho() {
+            if (window.innerWidth >= 768){itens.style.display ='block'}
+            else {itens.style.display='none'}    
+    
+        }
+    
+        function clickMenu() {
+            if (itens.style.display == 'block'){itens.style.display ='none'}
+            else {itens.style.display='block'}     
+            }
+    </script>
+    
+    
+</body>
+</html>

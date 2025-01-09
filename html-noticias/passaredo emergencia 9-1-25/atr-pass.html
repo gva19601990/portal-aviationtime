@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notícia</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /><!--menu-->
+    <link rel="stylesheet" href="../../CSS/global.css">
+    <link rel="stylesheet" href="../../CSS/mediaquery.css">
+</head>
+<body>
+    <header>    
+        <h1>Portal Aviation Time</h1>
+        <h2><img id="slogan" src="../../imagens/slogan.png" alt="slogan"></h2>
+        <span class="material-symbols-outlined" id="menu" onclick="clickMenu()">menu</span><!--ícone menu-->
+            <menu id="itens">
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../noticias.html">Notícias</a></li>
+                    <li><a href="../frota.html">Frota</a></li>
+                    <li><a href="../extras.html">Extras</a></li>
+                </ul>
+            </menu>
+    </header>
+
+    <div class="container">
+        <main>
+                <h2><strong>Atr da Passaredo faz pouso de emergência</strong></h2>
+                <p>Publicada em 15/08/2024</p>
+                <div>
+                <img id="imgpagnoticia" src="passaredo-atr.jpg" alt="fotopassaredo">
+                </div>
+                    <p>Um avião da Voepass (ATR 72-600), com 38 passageiros, fez um pouso de emergêcia em Uberlândia, Minas Gerais, após problemas técnicos, nesta quinta-feira (15). A aeronave saiu de Rio Verde, em Goiás, e tinha como destino Guarulhos, em São Paulo.</p>
+                    <p>A Voepass informou apenas “problema técnico”, quando questionada sobre o motivo do desvio da rota.</p>
+                    <p>Segundo apuração da CNN, o problema foi um transiente (variação elétrica que logo volta ao normal). Por precaução, o piloto fez a parada.</p>
+                    <p>Segundo a Voepass, os 38 passageiros foram reacomodados para seguir o destino. O Aeroporto de Uberlândia informou à CNN que acionou o Plano de Emergência para o ocorrido, às 19h14 desta quinta.
+                    </p>
+
+                </main>
+                    
+    </div>
+    <section id="contatos">
+        <p>Endereço (fictício): Avenida das Manguabeiras, 1777, Teresina-Piaui</p>
+        <p>Contatos: (86) 994776666</p>
+    </section>
+    <footer>
+            <p> &copy; George Alcantara</p>
+    </footer>
+
+    <!--Java script-->
+    <script>
+
+        function mudoutamanho() {
+            if (window.innerWidth >= 768){itens.style.display ='block'}
+            else {itens.style.display='none'}    
+    
+        }
+    
+        function clickMenu() {
+            if (itens.style.display == 'block'){itens.style.display ='none'}
+            else {itens.style.display='block'}     
+            }
+    </script>
+    
+    
+</body>
+</html>

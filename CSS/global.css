@@ -61,9 +61,10 @@ a {text-decoration: none;}
 
 
 /*container noticia normal*/
-.noticia {display: block;width: 50%;height: auto;background-color: rgba(37, 11, 110); margin: auto;margin-top: 10px;margin-bottom: 10px;}
+.noticia {display: block;width: 60%;height: auto;background-color: rgba(37, 11, 110); margin: auto;margin-top: 10px;margin-bottom: 10px;}
 .noticia h2 {font-size: 18px;text-align: left;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin: 2px;}
 .noticia a:visited {color: rgb(255, 255, 255);}
+.noticia h3 {text-decoration: none;color: white;}
 #marcador {display: inline-block;width: 30px;height: 30px;}
 .fotonoticia {width: 100%;height: auto;margin: auto;}
 #fotomini {width: 100%;}

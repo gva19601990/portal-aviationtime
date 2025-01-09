@@ -33,7 +33,7 @@ menu a:hover {background-color: rgb(85, 31, 231);cursor: pointer;transition: 1s;
 /*corpo*/
 
 
-/*pagina noticia, h2 titulo e h3 subtitulos*/
+/*Config gerais, h2 e h3 geral*/
 body {background-image: url('../imagens/plano-fundo.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;}
 div.container {min-height: 300px;max-width: 800px;min-width: 280px;display: block;margin: auto;margin-top: 20px;}
 main {background-color: white;margin-left: 6px;margin-right: 6px;padding: 10px;text-align: justify;border-radius: 20px;font-family: Arial, Helvetica, sans-serif;}

@@ -38,8 +38,10 @@ body {background-image: url('../imagens/plano-fundo.jpg');background-repeat: no-
 div.container {min-height: 300px;max-width: 800px;min-width: 280px;display: block;margin: auto;margin-top: 20px;}
 main {background-color: white;margin-left: 6px;margin-right: 6px;padding: 10px;text-align: justify;border-radius: 20px;font-family: Arial, Helvetica, sans-serif;}
 main h2 {text-align: center;margin-top: 50px;margin-bottom: 20px;font-size: 36px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+main h3{text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;margin: 20px;font-size: 14px;text-decoration: underline;color: black;}
 main p {text-indent: 30px;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;}
 a {text-decoration: none;}
+.not {font-family: libre;text-align: center;font-size: 30px;margin-top: 30px;}
 
 
 
@@ -50,7 +52,7 @@ a {text-decoration: none;}
 /*container noticia principal*/
 .principal {width: 95%;height: auto;padding: 10px;margin: auto; font-family: Arial, Helvetica, sans-serif;}
 .principal h1 {text-align: center;margin-top: 30px;margin-bottom: 10px;font-size: 36px;background-image: linear-gradient(to bottom, rgba(37, 11, 110, 0.582), white);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-.principal h2 {font-size: 14px;margin-top: 10px;margin-bottom: 10px;text-align: center;text-decoration: none;}
+.principal h2 {font-size: 14px;margin-top: 10px;margin-bottom: 10px;text-align: center;text-decoration: none;font-family: Arial, Helvetica, sans-serif;}
 .principal a:visited {color: black;}
 #imgcapa {display: block;width: 90%;height: auto;margin: auto;}
 
@@ -59,10 +61,12 @@ a {text-decoration: none;}
 
 
 /*container noticia normal*/
-.noticia {display: block;width: 80%;height: auto;background-image: linear-gradient(to bottom, rgba(37, 11, 110, 0.582), white);margin: auto;margin-top: 10px;margin-bottom: 10px;}
-.noticia h2 {font-size: 18px;text-align: left;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-.noticia a:visited {color: black;}
+.noticia {display: block;width: 50%;height: auto;background-color: rgba(37, 11, 110); margin: auto;margin-top: 10px;margin-bottom: 10px;}
+.noticia h2 {font-size: 18px;text-align: left;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin: 2px;}
+.noticia a:visited {color: rgb(255, 255, 255);}
 #marcador {display: inline-block;width: 30px;height: 30px;}
+.fotonoticia {width: 100%;height: auto;margin: auto;}
+#fotomini {width: 100%;}
 
 
 
@@ -75,7 +79,7 @@ a {text-decoration: none;}
 .tabela tfoot > tr {background-color: yellow;}
 
 /*section contatos*/
-section#contatos {background-color: rgb(63, 20, 180);text-align: center;color: white;padding: 10px;font-family: Arial;margin-top: 20px;font-size: 14px;}
+section#contatos {background-color: rgb(255, 255, 255);text-align: center;color: rgb(0, 0, 0);padding: 10px;font-family: Arial;margin-top: 20px;font-size: 14px;}
 
 
 /*rodapé*/

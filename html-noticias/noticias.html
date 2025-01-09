@@ -3,40 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Notícias</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /><!--menu-->
-    <link rel="stylesheet" href="CSS/global.css">
-    <link rel="stylesheet" href="CSS/mediaquery.css">
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="../CSS/mediaquery.css">
+    <style>
+        h2 {color: white;}
+    </style>
 </head>
 <body>
     <header>    
         <h1>Portal Aviation Time</h1>
-        <h2><img id="slogan" src="imagens/slogan.png" alt="slogan"></h2>
+        <h2><img id="slogan" src="../imagens/slogan.png" alt="slogan"></h2>
         <span class="material-symbols-outlined" id="menu" onclick="clickMenu()">menu</span><!--ícone menu-->
             <menu id="itens">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Notícias</a></li>
-                    <li><a href="#">Frota</a></li>
-                    <li><a href="#">Extras</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li><a href="frota.html">Frota</a></li>
+                    <li><a href="extras.html">Extras</a></li>
                 </ul>
             </menu>
     </header>
 
     <div class="container">
         <main>
-                <a href="html-noticias/airbus latam neo - 8-1-25/latam-neo.html">
-                    <div class="principal">
-                        <h1><strong>Latam recebe o sétimo A320neo</strong></h1>
-                        <img  id="imgcapa" src="html-noticias/airbus latam neo - 8-1-25/airbuslatamneo.jpg" alt="">
-                        <h2>Companhia irá operar para vários destinos com a nova aeronave.</h2>
+            <h3 class="not">Notícias</h3>
+            <div class="noticia">
+                <a href="airbus latam neo - 8-1-25/latam-neo.html">
+                    <h2><img id="marcador" src="../imagens/marcador.png" alt=""><strong>Latam recebe o sétimo A320neo</strong></h2>
+                    <div class="fotonoticia">
+                            <img id="fotomini" src="../html-noticias/airbus latam neo - 8-1-25/airbuslatamneo.jpg" alt="">
                     </div>
                 </a>
-
-                <div class="noticia">
-                    
+            </div>
+            <div class="noticia">
+                <a href="#">
+                    <h2><img id="marcador" src="../imagens/marcador.png" alt=""><strong>Azul inicia novas rotas em Dezembro</strong></h2>
+                    <div class="fotonoticia">
+                            <img id="fotomini" src="../html-noticias/novos destinos azul - 8-1-25/azul-novos.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="noticia">
+                <a href="#">
+                <h2><img id="marcador" src="../imagens/marcador.png" alt=""><strong>Atr da Passaredo faz pouso de emergência em Uberlândia</strong></h2>
+                <div class="fotonoticia">
+                        <img id="fotomini" src="../html-noticias/passaredo emergencia/passaredo-atr.jpg" alt="">
                 </div>
+            </a>
+            </div>
         </main>
     </div>
     <section id="contatos">

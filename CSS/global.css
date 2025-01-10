@@ -12,19 +12,19 @@
 
 
 /*cabeçalho*/
-header {background-color: rgb(38, 11, 110);text-align: center;padding: 20px; font-family: libre;color: white;text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.555);}
+header {background-color: rgb(68, 97, 177);text-align: center;padding: 20px; font-family: libre;color: white;text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.555);}
 header h1 {margin-top: 30px;}
 #slogan {width: 70px;height: 70px;}
 
 /*menu normal*/
 menu {display: none;}
 menu ul {list-style-type: none;}
-menu a {display: block; padding: 10px;color: white;text-decoration: none;background-color: rgb(41, 38, 38);text-align: center;border: 2px solid rgb(255, 255, 255);min-width: 90px;}
-menu a:hover {background-color: rgb(85, 31, 231);cursor: pointer;transition: 1s;}
+menu a {display: block; padding: 10px;color: white;text-decoration: none;background-color: rgb(41, 38, 38);text-align: center;min-width: 90px;}/*border: 2px solid rgb(255, 255, 255)*/
+menu a:hover {background-color: rgb(91, 149, 216);cursor: pointer;transition: 1s;}
 
 /*menu hamburguer*/
 #menu {background-color: rgb(41, 38, 38);display: block;padding: 5px;color: white;cursor: pointer;}
-#menu:hover {background-color: rgb(85, 31, 231);cursor: pointer;transition: 1s;}
+#menu:hover {background-color: rgb(91, 149, 216);cursor: pointer;transition: 1s;}
 
 
 
@@ -51,7 +51,7 @@ a {text-decoration: none;}
 
 /*container noticia principal*/
 .principal {width: 95%;height: auto;padding: 10px;margin: auto; font-family: Arial, Helvetica, sans-serif;}
-.principal h1 {text-align: center;margin-top: 30px;margin-bottom: 10px;font-size: 36px;background-image: linear-gradient(to bottom, rgba(37, 11, 110, 0.582), white);color: black;}
+.principal h1 {text-align: center;margin-top: 30px;margin-bottom: 10px;font-size: 36px;color: rgb(255, 255, 255);background-color: rgb(68, 97, 177);}
 .principal h2 {font-size: 14px;margin-top: 10px;margin-bottom: 10px;text-align: center;text-decoration: none;font-family: Arial, Helvetica, sans-serif;}
 .principal a:visited {color: black;}
 #imgcapa {display: block;width: 90%;height: auto;margin: auto;}
@@ -61,7 +61,7 @@ a {text-decoration: none;}
 
 
 /*container noticia normal*/
-.noticia {display: block;width: 60%;height: auto;background-color: rgba(37, 11, 110); margin: auto;margin-top: 10px;margin-bottom: 10px;}
+.noticia {display: block;width: 60%;height: auto;background-color: rgb(68, 97, 177); margin: auto;margin-top: 10px;margin-bottom: 10px;}
 .noticia h2 {font-size: 18px;text-align: left;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin: 2px;}
 .noticia a:visited {color: rgb(255, 255, 255);}
 .noticia h3 {text-decoration: none;color: white;}

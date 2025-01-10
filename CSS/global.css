@@ -51,7 +51,7 @@ a {text-decoration: none;}
 
 /*container noticia principal*/
 .principal {width: 95%;height: auto;padding: 10px;margin: auto; font-family: Arial, Helvetica, sans-serif;}
-.principal h1 {text-align: center;margin-top: 30px;margin-bottom: 10px;font-size: 36px;color: rgb(255, 255, 255);background-color: rgb(68, 97, 177);}
+.principal h1 {text-align: center;margin-top: 30px;margin-bottom: 10px;font-size: 36px;color: rgb(255, 255, 255);background-color: rgb(68, 97, 177);text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.582);width: 90%;margin: auto;}
 .principal h2 {font-size: 14px;margin-top: 10px;margin-bottom: 10px;text-align: center;text-decoration: none;font-family: Arial, Helvetica, sans-serif;}
 .principal a:visited {color: black;}
 #imgcapa {display: block;width: 90%;height: auto;margin: auto;}
